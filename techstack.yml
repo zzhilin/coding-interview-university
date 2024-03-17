@@ -1,0 +1,32 @@
+repo_name: zzhilin/coding-interview-university
+report_id: 9dc80a41774c9af4eb6f20932933860f
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T21:04:42+00:00'
+requested_by: jwasham
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zzhilin/coding-interview-university
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/zzhilin/coding-interview-university/blob/main/.github/workflows/links_checker.yml
+  detection_source: ".github/workflows/links_checker.yml"
+  last_updated_by: John Washam
+  last_updated_on: 2022-08-01 02:02:57.000000000 Z
